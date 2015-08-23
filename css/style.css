@@ -1,0 +1,402 @@
+/*____________________________________________________________________________________________________________ 
+  ____________________________________________________________________________________________________________ 
+
+Website: 	South Asian United Methodist Church
+URL:	 	southasianumc.org
+Author:  	Shelley Dogra
+Author Url:	
+
+
+
+
+
+____________________________________________________________________________________________________________ 
+____________________________________________________________________________________________________________ */
+
+
+* {padding: 0; margin: 0;}
+
+li {
+	list-style-type: none;
+}
+
+body {
+	background-color: #ff;
+	font-family: 'Abel' , sans-serif;
+	font-size: 1.4em;
+	text-align: center;
+}
+
+
+/* Gernal Content
+______________________________________________________ */
+
+.main { 
+	padding-top: 3%; 
+}
+
+
+.row { 
+	padding: 0px;
+}
+.primary_color { background-color: #fff; }
+
+.saffron { background-color: #ff9933;}
+
+.red { background-color: rgba(229, 0, 35, 0.95); }
+
+.white { background-color: #fff; }
+
+.black { background-color: #000; }
+
+p {
+	
+	font-family: 'Karla', sans-serif;
+	font-size: .8em;
+}
+
+b.uppercase {
+	text-transform: uppercase;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	padding: 5px 0px 1px 0px;
+}
+
+.main h5 {
+	color: #980017;
+}
+
+.text_left {
+	text-align: left;
+}
+
+
+/* Header & Navigaiton 
+______________________________________________________ */
+
+
+header.main_nav {
+	padding: 1px 0px;
+	display: block;
+	font-size: 100%;
+}
+
+
+.logo {
+	margin: 2% auto;
+	text-align: center;
+
+}
+
+.logo a {
+	font-size: 40px;
+	color: rgba(229, 0, 35, 0.95);
+	text-transform: uppercase;
+	font-weight: 900;
+	padding: 2px 0px 0px 0px;
+	margin: 0;
+	text-decoration: none;
+	
+	transition: all .45s;
+}
+
+.logo a:hover {
+	background-color: rgba(229, 0, 35, 0.95);
+	color: #fff;
+	border-radius: 5px;
+}
+
+.sub-heading {
+	padding: 0;
+	margin: 0;
+}
+
+
+/* Separators
+______________________________________________________ */
+
+.empty_box_wide {
+	padding: 10px 0px;
+}
+
+.empty_box_narrow {
+	padding: 3px 0px;
+}
+
+.empty_box_tiny {
+	padding: 1px 0px;
+}
+.empty_box_medium {
+	padding: 6px 0px;
+}
+
+/* ______________________________________________________ */
+
+
+.nav {
+	margin: 1% auto;
+	position: -webkit-sticky;
+	top: 0;
+	z-index: 1;
+}
+
+.nav ul {
+	padding: 1%;
+}
+
+.nav ul li {
+	display: inline-block;
+}
+
+.nav ul li a {
+	text-decoration: none;
+	padding: .2em;
+	color: #fff;
+	margin: 2px;
+	border: 1px solid rgba(229, 0, 35, 0.01);
+
+	transition: all .45s;
+
+}
+
+.nav ul li a:hover {
+	background-color: #fff;
+	color: rgba(229, 0, 35, 0.95);
+	border-radius: 10px;
+	border-color: rgba(229, 0, 35, 0.95)
+	border-bottom-width: 15px;
+}
+
+
+.hidden_nav {
+	*zoom: 1;
+}
+
+.hidden_nav:before,
+.hidden_nav:after {
+	content: " ";
+	display: table;
+}
+
+.hidden_nav:after {
+	clear: both;
+}
+
+
+img {
+	max-width: 100%;
+	display: block;
+	margin: 0 auto;
+	border-radius: 10px;
+}
+
+.content {
+	text-align: center;
+}
+
+.content img {
+	max-width: 100%;
+	min-width: 100% !important;
+	margin-top: 15px;
+}
+
+header img {
+	max-width: 80%;
+	min-width: 60%;
+}
+
+input {
+	text-align: center;
+}
+
+input[type=text] {
+	border: none;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+	-webkit-appearance: none;
+}
+
+footer {
+	background-color: rgba(228, 228, 228, 0.28);
+
+}
+
+footer ul li {
+	text-align: center;
+	list-style-type: none;	
+}
+
+footer h3 a {
+	text-decoration: none;
+	color: #000;
+}
+
+/* ______________________________________________________ */
+
+/*
+.calendar {
+	position: relative;
+	padding-bottom: 75%;
+	height: 0;
+	overflow: hidden;
+}
+
+.calendar iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100% !important;
+	height: 100% !important;
+}
+*/
+
+.embedded {
+	 position: relative;
+	 padding-bottom: 75%;
+	 height: 0;
+	 overflow: hidden;
+}
+
+.embedded iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 90%;
+	max-height: 90%;
+}
+
+.debug {
+	border: 1px dashed #000;
+}
+
+.debug.gray {
+	background-color: #828282;
+}
+
+
+
+.nav .current a {
+	font-weight: bold;
+}
+
+@media only screen
+	and (min-device-width: 320px)
+	and (max-device-width: 667px)
+	and (-webkit-min-device-pixel-ratio: 2) {
+		.logo a {
+			font-size: 20px;
+		}
+		.sub-heading {font-size: 12px;}
+		img {max-width: 75%;}
+		.empty_box { padding: 10px 0px;}
+		iframe {
+			max-width: 100% !important;
+			max-height: 90%
+		}
+		.embedded iframe {
+/* 			width: 60%; */
+		}
+
+		.row {
+			padding-left: 8px;
+			padding-right: 8px;
+		}	
+		
+		
+		.nav {
+			margin: 1% auto;
+			position: -webkit-sticky;
+			top: 0;
+			z-index: 1;
+		}
+		
+		.nav ul {
+			align-content: center;
+			font-size: 24px;
+			padding: 7px 0px 7px 7px;
+			}
+		
+		.nav ul li {
+			display: none; 
+		}
+		
+		.nav .current {
+			display: block;
+/* 			background: url(check.png) no-repeat 10px 12px; */
+		}
+		
+		.nav ul:hover {
+		background-image: none;
+		}
+		
+		.nav ul:hover li {
+		display: block;
+		margin: 0px 0px 5px 0px;
+		}
+		
+}
+	
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+/* Styles */
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen 
+and (min-width : 321px) {
+/* Styles */
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen 
+and (max-width : 320px) {
+/* Styles */
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+/* Styles */
+}
+
+/* iPads (landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+/* Styles */
+}
+
+/* iPads (portrait) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+/* Styles */
+}
+
+/* Desktops and laptops ----------- */
+@media only screen 
+and (min-width : 1224px) {
+/* Styles */
+}
+
+/* Large screens ----------- */
+@media only screen 
+and (min-width : 1824px) {
+/* Styles */
+}
+
+/* iPhone 4 ----------- */
+@media
+only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+/* Styles */
+}
