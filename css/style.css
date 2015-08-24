@@ -45,6 +45,8 @@ ______________________________________________________ */
 
 .red { background-color: rgba(229, 0, 35, 0.95); }
 
+.darkpurple { background-color: rgba(68, 0, 151, 0.99); }
+
 .white { background-color: #fff; }
 
 .black { background-color: #000; }
@@ -91,7 +93,7 @@ header.main_nav {
 
 .logo a {
 	font-size: 40px;
-	color: rgba(229, 0, 35, 0.95);
+	color: rgba(68, 0, 151, 0.99);
 	text-transform: uppercase;
 	font-weight: 900;
 	padding: 2px 0px 0px 0px;
@@ -102,7 +104,7 @@ header.main_nav {
 }
 
 .logo a:hover {
-	background-color: rgba(229, 0, 35, 0.95);
+	background-color: rgba(68, 0, 151, 0.99);
 	color: #fff;
 	border-radius: 5px;
 }
@@ -162,7 +164,7 @@ ______________________________________________________ */
 
 .nav ul li a:hover {
 	background-color: #fff;
-	color: rgba(229, 0, 35, 0.95);
+	color: rgba(68, 0, 151, 0.99);
 	border-radius: 10px;
 	border-color: rgba(229, 0, 35, 0.95)
 	border-bottom-width: 15px;
