@@ -6,15 +6,20 @@
 */
 
 
+
+
 .navbar-default {
 	background-color: #663883;
+	border-bottom: 2px solid;
 	border-color: #663883;
-	color: #FFFFFF;
+	color: rgba(102, 56, 130, 0.55);
 }
 
 .navbar-default .navbar-brand {
 	color: #663883;
 	font-size: 18px;
+	text-transform: uppercase;
+
 }
 
 .navbar-default .navbar-brand:hover,
@@ -25,14 +30,12 @@
 
 .navbar-default .navbar-nav > li > a {
 	color: #663883;
-	background-color: transparent;
 }
 
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
-	color: #FFFFFF;
-	background-color: #663883;
+	color: #663883;
 }
 
 .navbar-default .navbar-nav > li > a:hover,
@@ -41,33 +44,19 @@
 	background-color: #663883;
 }
 
-/*
 .navbar-default .navbar-nav > .open > a,
 .navbar-default .navbar-nav > .open > a:hover,
 .navbar-default .navbar-nav > .open > a:focus {
 	background-color: #663883;
 	color: #fff;
 }
-*/
-/*
-.navbar-default .navbar-brand {
-	font-size: 18px;
-	text-transform: uppercase;
-	color: #663883;
-}
 
-.navbar-nav {
-	background-color: #663883;
-	border-color: #ffffff;
-	color: #fff;
-	
-}
-*/
 
 .jumbotron {
 	color: #fff;
-/* 	background-image: url(../images/polish.jpg); */
+
 	background-color: #663883;
+	padding: 0px;
 }
 
 
@@ -84,6 +73,16 @@ img {
 }
 
 body {
-	padding: 60px 0px;
+	padding: 75px 0px;
 }
-
+table thead {
+	font-size: 22px;
+}
+table tbody {
+	font-size: 20px;
+}
+.embedded {
+	 position: relative;
+	 padding-bottom: 75%;
+	 height: 0;
+	 overflow: hidden; }
