@@ -54,8 +54,13 @@
 
 .jumbotron {
 	color: #fff;
-
 	background-color: #663883;
+	padding: 0px;
+}
+
+.j-inverse, thead {
+	color: #663883;
+	background-color: rgba(102, 56, 130, 0.18);
 	padding: 0px;
 }
 
@@ -73,16 +78,46 @@ img {
 }
 
 body {
-	padding: 75px 0px;
+	padding: 85px 0px;
 }
 table thead {
-	font-size: 22px;
+	font-size: 24px;
+	background-color: rgba(102, 56, 130, 0.18);
+	color: #663883;
 }
 table tbody {
 	font-size: 20px;
+}
+.table-striped {
+	background-color: rgba(102, 56, 130, 0.10);
 }
 .embedded {
 	 position: relative;
 	 padding-bottom: 75%;
 	 height: 0;
 	 overflow: hidden; }
+	 
+	 
+	 
+/* Separators
+______________________________________________________ */
+
+.empty_box_wide {
+	padding: 10px 0px; }
+
+.empty_box_narrow {
+	padding: 3px 0px; }
+	
+.empty_box_tiny {
+	padding: 1px 0px; }
+	
+.empty_box_medium {
+	padding: 6px 0px; }
+	
+/* Colors
+______________________________________________________ */	
+.purple { background-color: #663883; }
+
+.white { background-color: #fff; }
+
+.black { background-color: #000; }
