@@ -5,9 +5,6 @@
 }
 */
 
-
-
-
 .navbar-default {
 	background-color: #663883;
 	border-bottom: 2px solid;
@@ -51,7 +48,6 @@
 	color: #fff;
 }
 
-
 .jumbotron {
 	color: #fff;
 	background-color: #663883;
@@ -63,7 +59,6 @@
 	background-color: rgba(102, 56, 130, 0.18);
 	padding: 0px;
 }
-
 
 img {
 	max-width: 100%;
@@ -89,14 +84,26 @@ table tbody {
 	font-size: 20px;
 }
 .table-striped {
-	background-color: rgba(102, 56, 130, 0.10);
+	background-color: rgba(102, 56, 130, 0.1);
 }
 .embedded {
 	 position: relative;
 	 padding-bottom: 75%;
 	 height: 0;
-	 overflow: hidden; }
+	 overflow: hidden; 
+}
 	 
+	 
+	 
+	 
+/* Text
+______________________________________________________ */	 
+
+
+
+
+
+
 	 
 	 
 /* Separators
