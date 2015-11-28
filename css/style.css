@@ -95,6 +95,22 @@ table tbody {
 }
 	 
 	 
+
+/* Link
+______________________________________________________ */	
+
+a {
+	color: rgba(102, 56, 130, 9.0);
+}
+
+a:hover {
+	color: #fff;
+}
+
+a:visited {
+	color: #fff;
+}
+ 
 	 
 	 
 /* Text
