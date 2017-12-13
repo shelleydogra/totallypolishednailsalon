@@ -72,6 +72,27 @@ img {
 	color: white;
 }
 
+.debug-red {
+	background-color: #f31111;
+	color: white;
+}
+
+.debug-green {
+	background-color: #008100;
+	color: white;
+}
+
+.debug-blue {
+	background-color: #0000fa;
+	color: white;
+}
+
+.debug-yellow {
+	background-color: #fdfd00;
+	color: white;
+}
+
+
 body {
 	padding: 85px 0px;
 }
