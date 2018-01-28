@@ -23,13 +23,14 @@
 
 	<!-- My Stylesheet -->
 	<link rel="stylesheet" href="css/style.css">
+	<script src="js/script.js"></script>
 	
 	<title>Totally Polished | Hours</title>
 
 	
 </head>	
 
-<body>
+<body onload="showClock(); setInterval('showClock()', 100 )">
 
 		
 	<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
@@ -68,8 +69,21 @@
 				</div>
 		</div>
 	</div>
+	
+	<div class="container">
+    	<div class="row">
+    		<div class="col-md-12">
+    			<div class="jumbotron clock text-center">
+                    <script>
+                        document.write("Time: " + showClock());
+                    </script>
+    			</div>
+    		</div>
+    	</div>
+	</div>
 
 	<div class="container">
+    	
 		<div class="row">
 			<div class="col-lg-12">
 				<table class=" table text-center">
@@ -174,7 +188,7 @@
 	<!-- Minified JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 	<!-- My Script -->
-	<script src="js/script.js"></script>
+	
 	<script src="js/bootstrap.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/npm.js"></script>
