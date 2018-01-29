@@ -30,7 +30,7 @@
 	
 </head>	
 
-<body onload="showClock(); setInterval('showClock()', 100 )">
+<body>
 
 		
 	<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
@@ -73,10 +73,11 @@
 	<div class="container">
     	<div class="row">
     		<div class="col-md-12">
-    			<div class="jumbotron clock text-center">
-                    <script>
-                        document.write("Time: " + showClock());
-                    </script>
+    			<div class="jumbotron text-center">
+
+                	    <div id="current-date"></div>
+                		<div id="current-time"></div> 
+
     			</div>
     		</div>
     	</div>
