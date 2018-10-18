@@ -54,6 +54,10 @@
 	padding: .0px;
 }
 
+.jumbotron.clock {
+    font-size: 40px;
+}
+
 .j-inverse, thead {
 	color: #663883;
 	background-color: rgba(102, 56, 130, 0.18);
@@ -115,6 +119,17 @@ table tbody {
 	 padding-bottom: 75%;
 	 height: 0;
 	 overflow: hidden; 
+}
+
+/* Carousel
+______________________________________________________ */	
+
+.carousel-caption {
+    color: white;
+    
+    background-color: rgba(0, 0, 0, 0.15);
+    
+    background-size: 100px 100px;
 }
 
 
