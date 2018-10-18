@@ -1,22 +1,3 @@
-/*
-function showClock() {
-    var date = new Date();
-    var h = date.getHours();
-    var m = date.getMinutes();
-    var s = date.getSeconds();
-
-    if(h > 12) { h = h - 12;}
-    if(m < 10) {m = "0" + m;}
-    if(s < 10) {s = "0" + s;}
-
-    var clock = h + ":" + m + ":" + s;
-
-
-
-    return clock;
-}
-*/
-
 (function(){
 'use strict';
 
@@ -79,14 +60,6 @@ function showClock() {
                 fri.innerHTML = "10:00 - 8:00";
                 sat.innerHTML = "10:00 - 6:00";
             }
-
-            // if(isSummer(month)) {
-            //     return true;
-            // } else {
-            //     return false;
-            // }
-
-
         } , 1000);
 
         function formatMonth(m) {
@@ -102,10 +75,6 @@ function showClock() {
             return dayNames[dayIn];
         }
 
-        function hoursForSeason(dayIn) {
-            var dayHours = ['']
-        }
-
         function isSummer(monthIn) {
 
             switch (monthIn) {
@@ -117,9 +86,5 @@ function showClock() {
             }
         }
 });
-
-
-
-
 
 })();
