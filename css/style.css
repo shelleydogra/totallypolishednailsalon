@@ -121,6 +121,17 @@ table tbody {
 	 overflow: hidden; 
 }
 
+/* Carousel
+______________________________________________________ */	
+
+.carousel-caption {
+    color: white;
+    
+    background-color: rgba(0, 0, 0, 0.15);
+    
+    background-size: 100px 100px;
+}
+
 
 /* Link
 ______________________________________________________ */	
