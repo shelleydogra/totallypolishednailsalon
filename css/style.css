@@ -53,6 +53,11 @@
 	background-color: #663883;
 	padding: .0px;
 }
+.jumbotron-white {
+	color: #fff;
+	background-color: #fff;
+	padding: .0px;
+}
 
 .jumbotron.clock {
     font-size: 40px;
