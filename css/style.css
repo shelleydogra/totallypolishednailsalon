@@ -1,9 +1,6 @@
-/*
-.navbar-text > a {
-	color: inherit;
-	text-decoration: none;
-}
-*/
+
+@import url('https://fonts.googleapis.com/css?family=Fredericka+the+Great');
+
 
 .navbar-default {
 	background-color: #663883;
@@ -61,6 +58,22 @@
 
 .jumbotron.clock {
     font-size: 40px;
+}
+
+
+
+.special {
+    background-color: #ff3d00;
+    font-family: 'Fredericka the Great', cursive;
+    text-transform: capitalize;
+    background-image: url(/images/sign.svg)  ;
+    background-repeat: repeat-y;
+    z-index: 1;
+    background-size: 16rem;
+}
+
+url img {
+    opacity: .2;
 }
 
 .j-inverse, thead {
