@@ -66,10 +66,7 @@
     background-color: #ff3d00;
     font-family: 'Fredericka the Great', cursive;
     text-transform: capitalize;
-    background-image: url(/images/sign.svg)  ;
-    background-repeat: repeat-y;
-    z-index: 1;
-    background-size: 16rem;
+
 }
 
 url img {
