@@ -1,9 +1,6 @@
-/*
-.navbar-text > a {
-	color: inherit;
-	text-decoration: none;
-}
-*/
+
+@import url('https://fonts.googleapis.com/css?family=Fredericka+the+Great');
+
 
 .navbar-default {
 	background-color: #663883;
@@ -52,6 +49,29 @@
 	color: #fff;
 	background-color: #663883;
 	padding: .0px;
+}
+.jumbotron-white {
+	color: #fff;
+	background-color: #fff;
+	padding: .0px;
+}
+
+.jumbotron.clock {
+    font-size: 40px;
+}
+
+
+
+.special {
+    background-color: #ff3d00;
+    font-family: 'Fredericka the Great', cursive;
+    text-transform: capitalize;
+    
+
+}
+
+url img {
+    opacity: .2;
 }
 
 .j-inverse, thead {
@@ -115,6 +135,17 @@ table tbody {
 	 padding-bottom: 75%;
 	 height: 0;
 	 overflow: hidden; 
+}
+
+/* Carousel
+______________________________________________________ */	
+
+.carousel-caption {
+    color: white;
+    
+    background-color: rgba(0, 0, 0, 0.15);
+    
+    background-size: 100px 100px;
 }
 
 
