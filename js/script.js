@@ -21,6 +21,7 @@
             var h = date.getHours();
             var m = date.getMinutes();
             var month = date.getMonth();
+            var monthNumber = date.getMonth();
             var ddate = date.getDate();
             var day = date.getDay();
             var year = date.getFullYear();
@@ -44,7 +45,7 @@
             d.textContent = month + ' ' + ddate + ", " + year;
             dy.innerHTML = day;
 
-            if(isSummer(month)) {
+            if(isSummer(monthNumber)) {
                 sun.innerHTML = "12:00 - 5:00";
                 mon.innerHTML = "10:00 - 8:00";
                 tue.innerHTML = "10:00 - 8:00";
