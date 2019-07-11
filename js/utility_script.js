@@ -1,12 +1,17 @@
 (function(){
 'use strict';
 
+
+
     document.addEventListener('DOMContentLoaded', function() {
 
+
+        //Populate Values to dropdown lists
         var dayArray = ["sun", "mon", "tue", "wed", "thu", "fri", "sat"];
         var hoursArray = [ "1", "2", "3", "4", "5", "6","7", "8", "9", "10", "11", "12"];
         var minArray = ["00", "15", "30", "45"];
         
+        //Populate Day Array
         for (var i = 0; i < dayArray.length; i++) {
             var day = document.getElementById(dayArray[i])
             day.childNodes[1].innerHTML = dayArray[i];
@@ -24,14 +29,6 @@
             }
         }
         
-
-
-
-
-
-
-
-        
         function insertOption (options, weekDay ) {
             for (var i = 0; i < options.length; i++) {
                     var opt = options[i];
@@ -41,6 +38,18 @@
                     weekDay.appendChild(el);
                 }
         }
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         
     });
 
