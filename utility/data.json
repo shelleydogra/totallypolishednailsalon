@@ -1,0 +1,100 @@
+{
+  "sun": {
+    "morning": [
+      {
+        "hour": "12",
+        "minute": "00"
+      }
+    ],
+    "evening": [
+      {
+        "hour": "12",
+        "minute": "00"
+      }
+    ]
+  },
+  "mon": {
+    "morning": [
+      {
+        "hour": "12",
+        "minute": "00"
+      }
+    ],
+    "evening": [
+      {
+        "hour": "12",
+        "minute": "00"
+      }
+    ]
+  },
+  "tue": {
+    "morning": [
+      {
+        "hour": "12",
+        "minute": "00"
+      }
+    ],
+    "evening": [
+      {
+        "hour": "12",
+        "minute": "00"
+      }
+    ]
+  },
+  "wed": {
+    "morning": [
+      {
+        "hour": "12",
+        "minute": "00"
+      }
+    ],
+    "evening": [
+      {
+        "hour": "12",
+        "minute": "00"
+      }
+    ]
+  },
+  "thu": {
+    "morning": [
+      {
+        "hour": "12",
+        "minute": "00"
+      }
+    ],
+    "evening": [
+      {
+        "hour": "12",
+        "minute": "00"
+      }
+    ]
+  },
+  "fri": {
+    "morning": [
+      {
+        "hour": "12",
+        "minute": "00"
+      }
+    ],
+    "evening": [
+      {
+        "hour": "12",
+        "minute": "00"
+      }
+    ]
+  },
+  "sat": {
+    "morning": [
+      {
+        "hour": "12",
+        "minute": "00"
+      }
+    ],
+    "evening": [
+      {
+        "hour": "12",
+        "minute": "00"
+      }
+    ]
+  }
+}
