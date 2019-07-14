@@ -56,7 +56,9 @@
         		var keyname = Object.keys(items)
         		var output = '<ul>';
         		for (var key in items) {
-        			output += '<li>' + keyname[key.name] + items[key].morning[0].hour + ':' + items[key].morning[0].minute + ' - ' + items[key].evening[0].hour + ':' + items[key].evening[0].minute + '</li>';
+            		var i = 0;
+            		i++;
+        			output += '<li>' + keyname[i] + items[key].morning[0].hour + ':' + items[key].morning[0].minute + ' - ' + items[key].evening[0].hour + ':' + items[key].evening[0].minute + '</li>';
         		}
         		output += '</ul>';
         		document.getElementById('update').innerHTML = output;
