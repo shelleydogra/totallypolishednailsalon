@@ -57,7 +57,7 @@
         		var output = '<ul>';
         		var i = 0;
         		for (var key in items) {
-        			output += '<li>' + keyname[i] + items[key].morning[0].hour + ':' + items[key].morning[0].minute + ' - ' + items[key].evening[0].hour + ':' + items[key].evening[0].minute + '</li>';
+        			output += '<li>' + keyname[i] + ' - ' + items[key].morning[0].hour + ':' + items[key].morning[0].minute + ' - ' + items[key].evening[0].hour + ':' + items[key].evening[0].minute + '</li>';
         			i++;
         		}
         		output += '</ul>';
