@@ -52,7 +52,7 @@
         		var items = JSON.parse(request.responseText);
         		var output = '<ul>';
         		for (var key in items) {
-        			output += '<li>' + items[key].morning[0].hour + ':' + items[key].morning[0].minute + ' - ' + items[key].evening[0].hour + ':' + items[key].evening[0].minute + '</li>';
+        			output += '<li>' + items.[key] + items[key].morning[0].hour + ':' + items[key].morning[0].minute + ' - ' + items[key].evening[0].hour + ':' + items[key].evening[0].minute + '</li>';
         		}
         		output += '</ul>';
         		document.getElementById('update').innerHTML = output;
