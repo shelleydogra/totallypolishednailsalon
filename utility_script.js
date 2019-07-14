@@ -55,10 +55,10 @@
         		var items = JSON.parse(request.responseText);
         		var keyname = Object.keys(items)
         		var output = '<ul>';
+        		var i = 0;
         		for (var key in items) {
-            		var i = 0;
-            		i++;
         			output += '<li>' + keyname[i] + items[key].morning[0].hour + ':' + items[key].morning[0].minute + ' - ' + items[key].evening[0].hour + ':' + items[key].evening[0].minute + '</li>';
+        			i++;
         		}
         		output += '</ul>';
         		document.getElementById('update').innerHTML = output;
