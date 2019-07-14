@@ -53,7 +53,7 @@
         request.onreadystatechange = function() {
         	if ((request.readyState===4) && (request.status===200)) {
         		var items = JSON.parse(request.responseText);
-        		keyname = Object.keys(items)
+        		var keyname = Object.keys(items)
         		var output = '<ul>';
         		for (var key in items) {
         			output += '<li>' + keyname[key] + items[key].morning[0].hour + ':' + items[key].morning[0].minute + ' - ' + items[key].evening[0].hour + ':' + items[key].evening[0].minute + '</li>';
