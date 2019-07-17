@@ -42,7 +42,7 @@
             var sep = ':';
             if (date.getSeconds() % 2 === 1) sep = ' ';
 
-            c.innerHTML =  h + sep + m + ' ' + ampm;
+            //c.innerHTML =  h + sep + m + ' ' + ampm;
             d.textContent = month + ' ' + ddate + ", " + year;
             dy.innerHTML = day;
             cy.innerHTML = year;
