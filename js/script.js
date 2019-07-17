@@ -6,6 +6,7 @@
         var c = document.getElementById('current-time');
         var d = document.getElementById('current-date');
         var dy = document.getElementById('current-day');
+        var cy = document.getElementById('current-year');
 
         var sun = document.getElementById('sunday');
         var mon = document.getElementById('monday');
@@ -41,9 +42,10 @@
             var sep = ':';
             if (date.getSeconds() % 2 === 1) sep = ' ';
 
-            c.innerHTML =  h + sep + m + ' ' + ampm;
+            c.innerHTML = 'Time: ' +  h + sep + m + ' ' + ampm;
             d.textContent = month + ' ' + ddate + ", " + year;
             dy.innerHTML = day;
+            cy.innerHTML = year;
 
             if(isSummer(monthNumber)) {
                 sun.innerHTML = "12:00 - 5:00";
