@@ -25,7 +25,7 @@
             var monthNumber = date.getMonth();
             var ddate = date.getDate();
             var day = date.getDay();
-            var year = date.getFullYear();
+            var year = date.getFullYear()
             var ampm = 'A.M.'
 
             day = dayOfTheWeek(day);
@@ -42,7 +42,7 @@
             var sep = ':';
             if (date.getSeconds() % 2 === 1) sep = ' ';
 
-            c.innerHTML = 'Time: ' +  h + sep + m + ' ' + ampm;
+            c.innerHTML =  h + sep + m + ' ' + ampm;
             d.textContent = month + ' ' + ddate + ", " + year;
             dy.innerHTML = day;
             cy.innerHTML = year;
