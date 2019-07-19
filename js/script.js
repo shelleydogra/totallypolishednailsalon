@@ -6,7 +6,6 @@
         var c = document.getElementById('current-time');
         var d = document.getElementById('current-date');
         var dy = document.getElementById('current-day');
-        var cy = document.getElementById('current-year');
         
         var sun = document.getElementById('sunday');
         var mon = document.getElementById('monday');
@@ -45,7 +44,6 @@
             c.innerHTML =  h + sep + m + ' ' + ampm;
             d.innerHTML = month + ' ' + ddate + ", " + year;
             dy.innerHTML = day;
-            cy.innerHTML = year;
 
             if(isSummer(monthNumber)) {
                 sun.innerHTML = "12:00 - 5:00";
