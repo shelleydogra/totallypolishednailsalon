@@ -63,6 +63,12 @@
         }
         request.send();
         
+        
+        //write to JSON
+        
+        
+        
+        
 
     });
 
