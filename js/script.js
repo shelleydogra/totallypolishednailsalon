@@ -8,6 +8,7 @@
         var dy = document.getElementById('current-day');
         
         
+/*
         var sun = document.getElementById('sunday');
         var mon = document.getElementById('monday');
         var tue = document.getElementById('tuesday');
@@ -15,6 +16,7 @@
         var thu = document.getElementById('thursday');
         var fri = document.getElementById('friday');
         var sat = document.getElementById('saturday');
+*/
 
         setInterval( function updateTime() {
             var date = new Date();
@@ -109,7 +111,7 @@
         		var keyname = Object.keys(items)
         		for (var key in items) {
         		    
-        		    String(key).innerHTML = items[key].morning[0].hour + ':' + items[key].morning[0].minute + ' - ' + items[key].evening[0].hour + ':' + items[key].evening[0].minute
+        		    document.getElementById(key).innerHTML = items[key].morning[0].hour + ':' + items[key].morning[0].minute + ' - ' + items[key].evening[0].hour + ':' + items[key].evening[0].minute
         		    
         		    
                 }
