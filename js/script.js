@@ -7,7 +7,7 @@
         var d = document.getElementById('current-date');
         var dy = document.getElementById('current-day');
         
-        var sun = document.getElementById('sunday');
+//         var sun = document.getElementById('sunday');
         var mon = document.getElementById('monday');
         var tue = document.getElementById('tuesday');
         var wed = document.getElementById('wednesday');
@@ -46,7 +46,7 @@
             dy.innerHTML = day;
 
             if(isSummer(monthNumber)) {
-                sun.innerHTML = "12:00 - 5:00";
+//                 sun.innerHTML = "12:00 - 5:00";
                 mon.innerHTML = "10:00 - 8:00";
                 tue.innerHTML = "10:00 - 8:00";
                 wed.innerHTML = "10:00 - 8:00";
@@ -54,7 +54,7 @@
                 fri.innerHTML = "10:00 - 8:00";
                 sat.innerHTML = "10:00 - 6:00";
             } else {
-                sun.innerHTML = "12:00 - 5:00";
+//                 sun.innerHTML = "12:00 - 5:00";
                 mon.innerHTML = "12:00 - 7:30";
                 tue.innerHTML = "12:00 - 7:30";
                 wed.innerHTML = "12:00 - 7:30";
@@ -87,6 +87,37 @@
                     return false;
             }
         }
+        
+        
+        
+        var request;
+        if (window.XMLHttpRequest) {
+        	request = new XMLHttpRequest();
+        } else {
+        	request = new ActiveXObject("Microsoft.XMLHTTP");
+        }
+
+        request.open('GET', '../utility/data.json');
+        request.onreadystatechange = function() {
+        	if ((request.readyState===4) && (request.status===200)) {
+        		var items = JSON.parse(request.responseText);
+        		var keyname = Object.keys(items)
+        		
+        		document.getElementById('sunday').innerHTML = items["sun"].morning[0].hour + " : " + items["sun"].morning[0].minute;
+        		        		
+        		
+        		
+/*
+        		for (var key in items) {
+        			output += '<li>' + keyname[i] + ' - ' + items[key].morning[0].hour + ':' + items[key].morning[0].minute + ' - ' + items[key].evening[0].hour + ':' + items[key].evening[0].minute + '</li>';
+        			i++;
+        		}
+*/
+
+        	}
+        }
+        request.send();
+
 });
 
 })();
