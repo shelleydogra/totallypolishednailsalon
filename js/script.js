@@ -108,7 +108,7 @@
         		var keyname = Object.keys(items)
         		for (var key in items) {
         		    
-        		    items[key].innerHTML = items[key].morning[0].hour + ':' + items[key].morning[0].minute + ' - ' + items[key].evening[0].hour + ':' + items[key].evening[0].minute
+        		    key.innerHTML = items[key].morning[0].hour + ':' + items[key].morning[0].minute + ' - ' + items[key].evening[0].hour + ':' + items[key].evening[0].minute
         		    
         		    
                 }
