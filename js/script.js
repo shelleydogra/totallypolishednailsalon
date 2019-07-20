@@ -102,9 +102,12 @@
         	if ((request.readyState===4) && (request.status===200)) {
         		var items = JSON.parse(request.responseText);
         		var keyname = Object.keys(items)
-        		
-        		document.getElementById('sunday').innerHTML = items["sun"].morning[0].hour + " : " + items["sun"].morning[0].minute;
-        		        		
+        		for (var key in items) {
+        		    
+        		    items[key].innerHTML = items[key].morning[0].hour + ':' + items[key].morning[0].minute + ' - ' + items[key].evening[0].hour + ':' + items[key].evening[0].minute
+        		    
+        		    
+                }
         		
         		
 /*
