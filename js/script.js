@@ -47,20 +47,24 @@
 
             if(isSummer(monthNumber)) {
 //                 sun.innerHTML = "12:00 - 5:00";
+/*
                 mon.innerHTML = "10:00 - 8:00";
                 tue.innerHTML = "10:00 - 8:00";
                 wed.innerHTML = "10:00 - 8:00";
                 thu.innerHTML = "10:00 - 8:00";
                 fri.innerHTML = "10:00 - 8:00";
                 sat.innerHTML = "10:00 - 6:00";
+*/
             } else {
 //                 sun.innerHTML = "12:00 - 5:00";
+/*
                 mon.innerHTML = "12:00 - 7:30";
                 tue.innerHTML = "12:00 - 7:30";
                 wed.innerHTML = "12:00 - 7:30";
                 thu.innerHTML = "12:00 - 7:30";
                 fri.innerHTML = "10:00 - 8:00";
                 sat.innerHTML = "10:00 - 6:00";
+*/
             }
         } , 1000);
 
