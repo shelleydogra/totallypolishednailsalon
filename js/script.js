@@ -7,7 +7,8 @@
         var d = document.getElementById('current-date');
         var dy = document.getElementById('current-day');
         
-//         var sun = document.getElementById('sunday');
+        
+        var sun = document.getElementById('sunday');
         var mon = document.getElementById('monday');
         var tue = document.getElementById('tuesday');
         var wed = document.getElementById('wednesday');
